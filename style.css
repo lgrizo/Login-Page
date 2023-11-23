@@ -83,3 +83,12 @@ button {
 ::placeholder {
     color: lightgrey;
 }
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #5b86e6;
+}

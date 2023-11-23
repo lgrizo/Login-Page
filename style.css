@@ -16,22 +16,23 @@ label {
     font-weight: bold;
 }
 
-.sign-up {
-    color: lightgrey;
+button {
+    width: 80% ;
+    height: 45px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
-.btn {
-    text-align: center;
+a {
+    text-decoration: none;
+    color: #5b86e6;
 }
 
 .container {
-    background: #1f1c44;
-    width: 95%;
-    height: 100vh;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 150px;
 }
 
 .login-form {
@@ -59,15 +60,7 @@ label {
     outline: none;
 }
 
-button {
-    width: 80% ;
-    height: 45px;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin: 0 auto;
-    
-}
+
 
 .google {
     background: rgb(91,134,230);
@@ -80,15 +73,16 @@ button {
     margin-bottom: 15px;
 }
 
+.sign-up {
+    color: lightgrey;
+}
+
 ::placeholder {
     color: lightgrey;
 }
 
-button {
-    cursor: pointer;
+.input-div {
+    text-align: left;
+    margin-left: 32px;
 }
 
-a {
-    text-decoration: none;
-    color: #5b86e6;
-}

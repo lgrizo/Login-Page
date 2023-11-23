@@ -3,6 +3,27 @@ body {
     background: #1f1c44;
 }
 
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+.sign-up {
+    color: lightgrey;
+}
+
+.btn {
+    text-align: center;
+}
+
 .container {
     background: #1f1c44;
     width: 95%;
@@ -17,12 +38,13 @@ body {
     background: #ffffff;
     border-radius: 5px;
     width: 300px;
-    height: 500px;
+    height: 550px;
     margin: auto;
     padding: 0 25px;
     font-size: 1rem;
     font-weight: 100;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 .login-form input {
@@ -43,6 +65,7 @@ button {
     color: white;
     border: none;
     border-radius: 5px;
+    margin: 0 auto;
     
 }
 
@@ -54,4 +77,9 @@ button {
 .get-started {
     background: rgb(230,91,124);
     box-shadow: 0 2px 4px rgb(230,91,124, 0.507);
+    margin-bottom: 15px;
+}
+
+::placeholder {
+    color: lightgrey;
 }

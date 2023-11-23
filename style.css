@@ -1,0 +1,57 @@
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    background: #1f1c44;
+}
+
+.container {
+    background: #1f1c44;
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    background: #ffffff;
+    border-radius: 5px;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    padding: 0 25px;
+    font-size: 1rem;
+    font-weight: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.login-form input {
+    box-sizing: border-box;
+    width: 80%;
+    height: 45px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+button {
+    width: 80% ;
+    height: 45px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.google {
+    background: rgb(91,134,230);
+    box-shadow: 0 2px 4px rgb(91,134,230, 0.507);
+}
+
+.get-started {
+    background: rgb(230,91,124);
+    box-shadow: 0 2px 4px rgb(230,91,124, 0.507);
+}
